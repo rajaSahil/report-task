@@ -6,6 +6,7 @@ input:
   - name: baseline-report-path
     description: 'baseline report path'
     required: true
+    default: "/baseline/report.json"
 #  labels:
 #    description: 'labels. possible value: kubearmor-app: kubearmor-relay'
 #  operation:
