@@ -30,7 +30,7 @@ input:
 
 execution:
     - sleep 360
-    - accuknox-cli report --baseline=${{ input.baseline-report-path }}
+    - accuknox-cli report
     - mkdir downloads
     - mv /tmp/report-*.json downloads/report.json
     - mv /tmp/diff-report-*.json downloads/diff-report.json
