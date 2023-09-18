@@ -3,9 +3,9 @@ description: 'Generate reports using kubearmor and discovery engine'
 labels:
   - accuknox-report
 input:
-  baseline-report-path:
+  - name: baseline-report-path
     description: 'baseline report path'
-#    required: true
+    required: true
 #  labels:
 #    description: 'labels. possible value: kubearmor-app: kubearmor-relay'
 #  operation:
